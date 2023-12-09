@@ -1,0 +1,82 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 500px;
+    width: 100%;
+    border: 2px solid black;
+    overflow: none;
+}
+
+.container .navbar {
+    display: flex;
+    list-style: none;
+    height: 100px;
+    background-color: white;
+    color: black;
+    width: 100%;
+    overflow: hidden;
+    position: fixed;
+    /* Set the navbar to fixed position */
+    top: 0;
+    /* Position the navbar at the top of the page */
+    width: 100%;
+    /* Full width */
+
+}
+
+.navbar .list {
+    margin: 15px 10px;
+    width: 50%;
+}
+
+.navbar li {
+    display: inline;
+    margin: 20px 10px;
+    font-size: 1.4rem;
+    color: #3f4755;
+    font-family: Nunito !important;
+    /* border: 2px solid black; */
+
+}
+
+.navbar li:hover {
+    display: inline;
+    margin: 20px 10px;
+    font-size: 1.4rem;
+    color: #38cfca;
+    cursor: pointer;
+
+
+}
+
+.navbar .button {
+    margin: 10px 10px 10px 430px;
+}
+
+.navbar .btn {
+    height: 40px;
+    width: 100px;
+    margin: 0px 2px;
+    border-radius: 10px;
+    background-color: #38cfca;
+    border: none;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.container .intro {
+    height: 300px;
+    margin-top: 40px;
+    background-color: #38cfca;
+
+}
+
+.container .intro .para {
+    /* color: white; */
+    color: black;
+}
